@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+
+  background: #f1f1f1;
+}
+main {
+  width: 700px;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.container {
+  width: 200px;
+  height: 300px;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+#my-image {
+  width: 100px;
+
+  position: relative;
+}
+#my-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.image {
+  width: 100px;
+}
+
+.item {
+  background-color: #58adf7;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: move;
+  color: white;
+}
+
+.item.dragging {
+  opacity: 0.5;
+  background: rgba(126, 124, 124, 0.215);
+}
+
+button {
+  background: rgb(243, 34, 243);
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgb(255, 40, 255);
+  font-weight: 400;
+  padding: 9px 10px;
+  border-radius: 5px;
+  width: 90px;
+}
+#buttons {
+  width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.success-message {
+  background: rgb(243, 34, 243);
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgb(255, 40, 255);
+  font-weight: 400;
+  padding: 9px 10px;
+  border-radius: 5px;
+  width: fit-content;
+  margin: auto;
+}

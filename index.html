@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop Example</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==">
+</head>
+<body>
+   <main>
+    <div class="container">
+      <h2>Draggable Items</h2>
+      <div class="item" draggable="true">Anukul Raj</div>
+      <div class="item" draggable="true" id="my-image"><img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
+      <div class="item" draggable="true"><img class="image" src="https://picsum.photos/200" alt=""></div>
+    </div>
+    <div class="container">
+      <h2>Droppable Area</h2>
+    </div>
+   </main>
+   <div id="buttons">
+    <button id="resetButton">Reset</button>
+   </div>
+  <script src="index.js"></script>
+</body>
+</html>
